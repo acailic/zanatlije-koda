@@ -4,6 +4,6 @@
 
 Šta se dešava kada sav kod stavite u jedan fajl? Fajl postaje nečitljiv, build usporava (nema modularnog keširanja), tim gubi produktivnost. Kratkoročni „brži razvoj“ pretvara se u dugoročnu paralizu.
 
-Bolje rešenje je modularizacija i razmišljanje kroz interfejse / delegate. Primer: u Taro Android aplikaciji, `CoachFragment` upravlja Taro GPT iskustvom. Ako direktno u njega ubacite svu logiku za prepoznavanje govora, klasa se naduvava. Umesto toga, kreiramo `SpeechToTextManager` koji brine o svim edge case-ovima (permisioni, pauze, prekidi). Fragment implementira jednostavan interfejs `onTextSpoken` i dobija tekst kada je spreman.
+Bolje rešenje je modularizacija i razmišljanje kroz interfejse / delegate. Primer: u jednoj našoj Android aplikaciji `CoachFragment` upravlja celim iskustvom konverzacije. Ako direktno u njega ubacite svu logiku za prepoznavanje govora, klasa se naduvava. Umesto toga, kreiramo `SpeechToTextManager` koji brine o svim edge case-ovima (dozvole, pauze, prekidi). Fragment implementira jednostavan interfejs `onTextSpoken` i dobija tekst kada je spreman.
 
 Ovakva podela čini kod čitljivijim, testabilnijim i lakšim za proširivanje. Jedan od najboljih saveta koje sam dobio u Meti bio je: „Razmišljaj kroz interfejse.“ Kada modul uredno uradi jednu stvar i jasno komunicira sa drugima, gradite sistem koji može da raste.

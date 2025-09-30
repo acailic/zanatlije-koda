@@ -1,6 +1,6 @@
 # Rastite još brže: sporedni projekti i open source
 
-Hajde da zaokružimo priču. Hvala vam što ste ostali sa mnom poslednja tri sata. Nadam se da ste naučili mnogo i želim da završimo snažno, jer na kraju dana želimo da ono što naučite na Tarou primenite u svakodnevnom radu i da zaista promenite ponašanje kako biste napredovali.
+Hajde da zaokružimo priču. Hvala vam što ste ostali sa mnom poslednja tri sata. Nadam se da ste naučili mnogo i želim da završimo snažno, jer najvažnije je da ono što ovde usvojite primenite u svakodnevnom radu i zaista promenite navike kako biste napredovali.
 
 Zato dajmo malo konkretnijih saveta kako da to uradite. Recimo da prolazite kroz ovaj materijal i želite da napredujete još brže. Znate kako da napredujete na poslu, ali želite dodatno učenje sa strane, ili ste možda trenutno bez posla – mnogo ljudi se sada suočava sa otkazima. Kako da nastavite da razvijate tehničke veštine čak i kada nemate posao? Evo nekoliko opcija koje vam mogu turbo ubrzati rast kao softverskom inženjeru na sopstvenu ruku. Ne treba vam sjajan tim sa vrhunskom kulturom koda – možete to i sami.
 

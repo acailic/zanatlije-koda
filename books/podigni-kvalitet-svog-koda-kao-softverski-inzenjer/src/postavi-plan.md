@@ -16,18 +16,18 @@ Kada ovo uradite, podelite plan sa timom. Sve što nije trivijalno – dakle, sv
 
 Ovakva rana „socializacija“ ubrzaće vaše učenje. Mnogo je bolje da plan doterate dok još niste napisali ni jednu liniju koda. Grozno je voditi veliku raspravu u code review fazi: već ste uložili vreme da napišete kod, a kolege vas pitaju „Zašto si ovo ovako uradio?“ i vraćaju vas na početak. Sav taj rad bi završio u kanti, što svima onemoguća.
 
-Evo primera planiranja sa Tara. Pre par meseci radili smo na anonimnim komentarima na Taro forumu. Funkcionalnost izgleda ovako: postoji kućica „komentariši anonimno“, a kada je čekirate, dobijete nasumični identitet dinosaurusa, jer zajednicu zovemo tarodaktilima. Priča o tome je tema za neki drugi video.
+Evo primera planiranja iz jednog internog proizvoda. Pre nekoliko meseci radili smo na anonimnim komentarima na kompanijskom forumu. Funkcionalnost je trebalo da omogući da korisnik čekira kućicu „komentariši anonimno“ i automatski dobije nasumični identitet maskote koju tim koristi u internim komunikacijama.
 
-Kako sam postavio plan za taj zadatak? Prvo sam popisao zahteve: opštu strategiju, data model i korisničko iskustvo. Na sreću, funkcija je bila relativno jednostavna – praktično jedan bool flag na objektu diskusije – ali odmah razmišljate i o edge case-ovima.
+Kako sam postavio plan za taj zadatak? Prvo sam popisao zahteve: opštu strategiju, data model i korisničko iskustvo. Funkcija je na papiru bila jednostavna – praktično jedan bool flag na objektu diskusije – ali odmah razmišljate i o edge case-ovima.
 
-Ako neko komentariše anonimno, većina korisnika verovatno neće pokušati da klikne na avatar i pogleda profil, jer je lice anonimno. Ali morate obezbediti da, ako neko ipak klikne, identitet ne „procure“. U suprotnom biste uništili svrhu anonimnosti. Vidite kako sam unapred razmišljao o svim načinima na koje stvari mogu da se izjalove, i to je dovelo do uspešnog lansiranja funkcije.
+Ako neko komentariše anonimno, većina korisnika verovatno neće pokušati da klikne na avatar i pogleda profil, jer je lice anonimno. Ali morate obezbediti da, ako neko ipak klikne, identitet ne „procure“. U suprotnom biste uništili svrhu anonimnosti. Vidite kako unapred razmišljanje o svim načinima na koje stvari mogu da se izjalove dovodi do uspešnog lansiranja funkcije.
 
-Naravno, to nije jedino što je ušlo u Asana task dok sam skicirao projekat. Predstavio sam opcije. Razmišljali smo između dva pravca – to je više produkt-dilema nego čisto tehnička, ali ima posledice. Jedna je bila da održimo dinosaur-temu i sinhronizujemo se sa brendom tarodaktila, a druga da korisnika prikažemo generičnije, kao „korisnog Taro člana“ ili „podržavajućeg Taro člana“.
+Naravno, to nije jedino što je ušlo u Asana task dok sam skicirao projekat. Predstavio sam opcije. Razmišljali smo između dva pravca – to je više produkt-dilema nego čisto tehnička, ali ima posledice. Jedna je bila da zadržimo postojeće maskote koje već koristi tim, a druga da korisnika prikažemo neutralnije, kao „anoniman član zajednice“ ili „podržavajući član zajednice“.
 
-Vodili smo odličnu diskusiju u Taro timu o tome koji pravac da izaberemo, jer, ponovo, kada imate više opcija, razgovor je kvalitetniji.
+Vodili smo odličnu diskusiju u timu o tome koji pravac da izaberemo, jer, ponovo, kada imate više opcija, razgovor je kvalitetniji.
 
 Na kraju sam napravio i eksplicitno poglavlje o edge case-ovima. Pošto smo funkciju prvo izbacili na webu, morali smo da proverimo da li će nešto slomiti mobilnu aplikaciju. Mobile zapravo nema podršku da se pogledaju profili – logika za učitavanje profila je komplikovana. Analizirali smo i zaključili da je sve bezbedno sve dok je identitet zapisan u data modelu.
 
-Još jedna ivica scenarija: šta se dešava kada komentarišete sopstveno pitanje? To se često dešava na Tarou, ljudi žele da zahvale zajednici na dobrim odgovorima. Tu anonimnost nema smisla, jer je i pitanje već anonimno. Bilo bi čudno da se originalni autor odjednom „pretvori“ u dinosaurusa. Zato smo odlučili da onemogućimo anonimne komentare na sopstveno pitanje.
+Još jedna ivica scenarija: šta se dešava kada komentarišete sopstveno pitanje? To se često dešava na platformi, ljudi žele da zahvale zajednici na dobrim odgovorima. Tu anonimnost nema smisla, jer je i pitanje već anonimno. Bilo bi čudno da se originalni autor odjednom „pretvori“ u maskotu. Zato smo odlučili da onemogućimo anonimne komentare na sopstveno pitanje.
 
 Dakle, plan je obuhvatio temeljnu pokrivenost edge case-ova, ali i razmišljanje unapred: kakva proširenja bismo mogli da radimo? Ako postoji nešto što je verovatno na kratki rok, bolje je da to odmah uzmemo u obzir i pišemo kod tako da se lako proširi. Kad dođe trenutak za ta proširenja, nećemo trošiti mesece – kod će već moći da podnese buduće funkcije.

@@ -10,7 +10,7 @@ Dobar kontekst odgovara na sledeća pitanja:
 
 Još jedan trik: komentarišite sopstveni PR. Ako je neki deo posebno zamršen ili kritičan, ostavite napomenu. Često nema načina da kod bude čitljiviji, ali bar možete objasniti „ovde sam morao da uradim hack zbog legacy-ja; otvoren sam za bolja rešenja“. Time kolegama štedite vreme i pozivate ih da vas izazovu – a najbolji inženjeri žele da im se kod rastavi kako bi naučili bolje obrasce.
 
-Primer visokog standarda: rani PR iz Taro Android open-source projekta. Aplikacija je tada puštala video kroz YouTube web-view i nije imala full-screen. Jedan član zajednice je poslao PR koji uvodi fullscreen podršku. Prvo je linkovao GitHub issue, jasno opisao korisničku vrednost i objasnio pristup: korišćenje Kotlin koda, malo čišćenja i oslanjanje na ugrađeni `WebView`.
+Primer visokog standarda: rani PR iz internog Android projekta u kompaniji. Aplikacija je tada puštala video kroz YouTube web-view i nije imala full-screen. Kolega iz zajednice je poslao PR koji uvodi fullscreen podršku. Prvo je linkovao odgovarajući tiket, jasno opisao korisničku vrednost i objasnio pristup: korišćenje Kotlin koda, malo čišćenja i oslanjanje na ugrađeni `WebView`.
 
 Zatim je pokrio poliranje i ivice scenarija: kada korisnik izađe iz full-screen prikaza, video ostaje sinhronizovan. Time je recenzentu dao sigurnost da je scenario razmotren. Komitovi su bili mali i fokusirani, sa jasnim opisima – ogroman plus.
 
