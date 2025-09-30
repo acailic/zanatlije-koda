@@ -1,4 +1,4 @@
-# Zanatlije Koda – Učenje na srpskom
+# Zanatlije Koda
 
 Ovaj repozitorijum sadrži edukativne materijale na srpskom jeziku organizovane kao mdBook priručnici. Svaka knjiga živi u `books/<naziv-knjige>`, sa sopstvenim `book.toml` konfiguracionim fajlom i `src/` direktorijumom koji sadrži `SUMMARY.md` i poglavlja.
 
