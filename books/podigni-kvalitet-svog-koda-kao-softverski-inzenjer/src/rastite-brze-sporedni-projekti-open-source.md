@@ -2,15 +2,15 @@
 
 Hajde da zaokružimo priču. Hvala vam što ste ostali sa mnom poslednja tri sata. Nadam se da ste naučili mnogo i želim da završimo snažno, jer najvažnije je da ono što ovde usvojite primenite u svakodnevnom radu i zaista promenite navike kako biste napredovali.
 
-Zato dajmo malo konkretnijih saveta kako da to uradite. Recimo da prolazite kroz ovaj materijal i želite da napredujete još brže. Znate kako da napredujete na poslu, ali želite dodatno učenje sa strane, ili ste možda trenutno bez posla – mnogo ljudi se sada suočava sa otkazima. Kako da nastavite da razvijate tehničke veštine čak i kada nemate posao? Evo nekoliko opcija koje vam mogu turbo ubrzati rast kao softverskom inženjeru na sopstvenu ruku. Ne treba vam sjajan tim sa vrhunskom kulturom koda – možete to i sami.
+Zato dajmo malo konkretnijih saveta kako da to uradite. Recimo da prolazite kroz ovaj materijal i želite da napredujete još brže. Znate kako da napredujete na poslu, ali želite dodatno učenje sa strane, ili ste možda trenutno bez posla – mnogo ljudi se sada suočava sa otkazima. Kako da nastavite da razvijate tehničke veštine čak i kada nemate posao? Evo nekoliko opcija koje vam mogu ozbiljno ubrzati rast kao softverskom inženjeru na sopstvenu ruku. Ne treba vam sjajan tim sa vrhunskom kulturom koda – možete to i sami.
 
-Mnogi veruju da morate da radite za neku glamuroznu tehnološku kompaniju, neki FANG, da biste naučili vrhunsko inženjerstvo. Rad u takvoj firmi svakako pomaže i ubrzava učenje, ali nije neophodan – ni izbliza. FANG nema monopol na stvaranje dobrih softverskih inženjera. Ako imate prave osnove, pravi podsticaj i pravo znanje, što je upravo ono što ovaj kurs želi da vam pruži, možete potpuno samostalno da unapredite svoje koderske sposobnosti.
+Mnogi veruju da morate da radite za neku glamuroznu tehnološku kompaniju, neku od firmi iz FANG grupe, da biste naučili vrhunsko inženjerstvo. Rad u takvoj firmi svakako pomaže i ubrzava učenje, ali nije neophodan – ni izbliza. FANG nema monopol na stvaranje dobrih softverskih inženjera. Ako imate prave osnove, pravi podsticaj i pravo znanje, što je upravo ono što ovaj kurs želi da vam pruži, možete potpuno samostalno da unapredite svoje koderske sposobnosti.
 
 Postoje dve velike poluge za to. Prva su sporedni projekti; njima sam se tokom karijere nemilosrdno služio, još od fakulteta. Sastavljao sam razne aplikacije i to mi je donelo ogromno učenje.
 
-Ti projekti su mi pomogli da dobijem prilike za posao, da prođem intervjue i da pišem kod brže. Nikada nisam bio u opasnosti od PIP-a u Meti ili Robinhoodu, pre svega zato što su mi koderske veštine bile toliko jake zahvaljujući tim sporednim projektima koji su me naučili većini koncepata iz ovog kursa.
+Ti projekti su mi pomogli da dobijem prilike za posao, da prođem intervjue i da pišem kod brže. Nikada nisam bio u opasnosti od PIP-a (plana poboljšanja učinka) u Meti ili Robinhoodu, pre svega zato što su mi koderske veštine bile toliko jake zahvaljujući tim sporednim projektima koji su me naučili većini koncepata iz ovog kursa.
 
-Druga poluga je open source. Ako tražite kvalitetne komentare na kod, otvoreni kod je pravi put. Kada doprinosite velikom repozitorijumu, održavaju ga odlični inženjeri i, ako sledite savete iz kursa i šaljete kvalitetne PR-ove, dobićete kvalitetan fidbek. To je način da učite potpuno izvan posla.
+Druga poluga je open source. Ako tražite kvalitetne komentare na kod, otvoreni kod je pravi put. Kada doprinosite velikom repozitorijumu, održavaju ga odlični inženjeri i, ako sledite savete iz kursa i šaljete kvalitetne pull requestove, dobićete kvalitetan fidbek. To je način da učite potpuno izvan posla.
 
 Ali zapamtite: nema prečica. Mnogi inženjeri budu lenji sa ova dva kanala učenja. Čim postanete lenji, nema svrhe da se tim bavite – pokušavate da prevarite sistem, a nagrada za to biće praktično nula.
 
@@ -32,7 +32,7 @@ I ponovo: prigrli bol. Ako pratite ove prve korake, ulažete rad i raste vam baz
 
 To je dobro. Ako priznate taj bol umesto da ga ignorišete, počećete da refaktorišete kod i učinite ga skalabilnijim. To znači zaista naučiti kako se piše dobar kod. Taj bol vas oblikuje u boljeg inženjera.
 
-Pređimo na open source. I tu viđam mnogo lenjosti. Nemojte da se bacate samo na najlakše tikete. Svaki veliki repo ima sitne zadatke, često u dokumentaciji. Ako repo ima više od 5.000 zvezdica, ima desetine ili stotine stranica README fajlova i vikija – naći ćete neku slovnu grešku i poslati PR. Ali to nikome ne pomaže.
+Pređimo na open source. I tu viđam mnogo lenjosti. Nemojte da se bacate samo na najlakše tikete. Svaki veliki repozitorijum ima sitne zadatke, često u dokumentaciji. Ako repozitorijum ima više od 5.000 zvezdica, ima desetine ili stotine stranica README fajlova i vikija – naći ćete neku slovnu grešku i poslati pull request. Ali to nikome ne pomaže.
 
 Ne postajete bolji programer time. Svaki dobar menadžer će to provaliti i malo dublje pitati: „Nisi zapravo proširio React, zar ne? Ne razumeš kako ova tehnologija radi?“
 
@@ -40,13 +40,13 @@ Sledeća stvar: pokušajte zaista da razumete open source repozitorijum kojem do
 
 Zaista zaronite: pokrenite kod, pravite gomilu izmena, eksperimentišite. Naučite kako komponente funkcionišu, koje su kritične, kako razgovaraju jedna s drugom, koje funkcionalnosti svaki modul pokreće – razumite sve to.
 
-Veliki motivator da ne budete lenji i da rešavate teške probleme jeste da pronađete nešto što koristite i oko čega vam je stalo. Nemojte da gamifikujete stvari. Video sam mnogo inženjera koji, kad krenu u open source, izaberu omiljenu kompaniju, uzmu najveći repo i traže najlakši zadatak samo da bi mogli da kažu kako su doprineli Googleu ili Facebooku. Ponovo pokušavaju da prevare sistem.
+Veliki motivator da ne budete lenji i da rešavate teške probleme jeste da pronađete nešto što koristite i oko čega vam je stalo. Nemojte da gamifikujete stvari. Video sam mnogo inženjera koji, kad krenu u open source, izaberu omiljenu kompaniju, uzmu najveći repozitorijum i traže najlakši zadatak samo da bi mogli da kažu kako su doprineli Googleu ili Facebooku. Ponovo pokušavaju da prevare sistem.
 
-Umesto toga, nađite repo prema kome ste iskreno strastveni. Ako gradite sopstvene projekte, ubrzo ćete saznati koji su veliki open source repozitorijumi. Kada ste korisnik nekog repozitorijuma, vi ste odličan kandidat da mu doprinesete, jer znate koju vrednost pruža, kako radi i, što je najvažnije, koje probleme ima.
+Umesto toga, nađite repozitorijum prema kome ste iskreno strastveni. Ako gradite sopstvene projekte, ubrzo ćete saznati koji su veliki open source repozitorijumi. Kada ste korisnik nekog repozitorijuma, vi ste odličan kandidat da mu doprinesete, jer znate koju vrednost pruža, kako radi i, što je najvažnije, koje probleme ima.
 
 Znate koje funkcije nedostaju ili šta bi developeri voleli da vide u tom repozitorijumu. Možete da rešavate postojeće tikete koje su održavaoci već otvorili, ali i da prijavljujete nove probleme i predlažete nove funkcije.
 
-Ako ste u stanju da to radite u open source projektu, to je fantastično učenje. Prevesti ideju u predlog, dobiti odobrenje i zatim poslati PR koji implementira taj predlog – to je ceo životni ciklus proizvoda kada govorimo o proširivanju softvera.
+Ako ste u stanju da to radite u open source projektu, to je fantastično učenje. Prevesti ideju u predlog, dobiti odobrenje i zatim poslati pull request koji implementira taj predlog – to je ceo životni ciklus proizvoda kada govorimo o proširivanju softvera.
 
 To rade tehnički leadovi, i ako to možete, dobićete neverovatno učenje iz open source-a.
 

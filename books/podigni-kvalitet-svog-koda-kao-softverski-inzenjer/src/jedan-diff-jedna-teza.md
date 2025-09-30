@@ -7,7 +7,7 @@ Osnovno pravilo: `one diff, one thesis`. Svaki PR treba da radi jednu jasnu stva
 Zašto je to bitno?
 - **Brže pišeš**: mali zadaci se završavaju za dan, ne za dve nedelje.
 - **Lakše se review-uju**: manje koda → jednostavniji pregled → brže odobrenje.
-- **Kvalitet raste**: kada je obim manji, lakše je pokriti edge case-ove, definisati kontekst i pripremiti dobar test plan.
+- **Kvalitet raste**: kada je obim manji, lakše je pokriti granične slučajeve, definisati kontekst i pripremiti dobar test plan.
 
 Kako znaš da je PR fokusiran? Postavi sebi pitanja: mogu li komponentu izdvojiti u poseban PR? Da li se mixuju UI, backend, refaktor i cleanup? Ako da, podeli. Granica je elastična, ali cilj je da svaka jedinica rada ima jasnu „tezu“ – šta tačno isporučuje.
 

@@ -2,7 +2,7 @@
 
 Ostavi kodnu bazu boljom nego što si je zatekao. To je princip koji donosi ogroman povrat jer se mali dobici sabiraju. Ako svaki dan napraviš napredak od 1%, posle godinu dana si 37 puta bolji – ekstreman primer, ali ideja je jasna. Dok prolaziš kroz kod, registruj bolne tačke. Još bolje ako su tvoje, jer tako popravljaš sopstveni loš kod i najviše učiš.
 
-Zadaci se često ponavljaju. Ako si backend inženjer i dodaješ novi endpoint, verovatno ćeš reciklirati raniji kod. Iskoristi priliku: pogledaj ga „svežim očima“. Šta je danas jasno da je moglo bolje? Koji obrazac sada znaš, a tada nisi? Možeš li da skineš višak linija bez gubitka čitljivosti? Da preimenuješ promenljive i razbiješ monolitnu klasu? Jesi li propustio edge case koji si kasnije naučio kroz review? Može li biti brže?
+Zadaci se često ponavljaju. Ako si backend inženjer i dodaješ novi endpoint, verovatno ćeš reciklirati raniji kod. Iskoristi priliku: pogledaj ga „svežim očima“. Šta je danas jasno da je moglo bolje? Koji obrazac sada znaš, a tada nisi? Možeš li da skineš višak linija bez gubitka čitljivosti? Da preimenuješ promenljive i razbiješ monolitnu klasu? Jesi li propustio granični slučaj koji si kasnije naučio kroz review? Može li biti brže?
 
 Primer: ukloni višak ID-jeva, preimenuj promenljive u smislenije, prebaci legacy API na moderni, podeli „God objekat“ u manje module. Jednim prolaskom dobiješ uredniji, brži i održiviji modul.
 

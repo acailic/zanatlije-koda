@@ -1,6 +1,6 @@
 # Studija slučaja: ivice scenarija na signup formi
 
-Signup forma deluje jednostavno, ali čim zagrebeš, iskače more edge case-ova. Hajde da ih prođemo kroz tri sloja.
+Signup forma deluje jednostavno, ali čim zagrebeš, iskače more granične slučajeve. Hajde da ih prođemo kroz tri sloja.
 
 **Ulazi (frontend):**
 - Polja prazna.
@@ -19,4 +19,4 @@ Signup forma deluje jednostavno, ali čim zagrebeš, iskače more edge case-ova.
 - Tamni režim (zaboravljeni stilovi nestanu u pozadini).
 - Egzotični ili zastareli browser, agresivni ad-blocker, nedostupna JavaScript funkcija.
 
-To je već 20+ slučajeva, a još nismo pomenuli dodatna polja, opcije prijave preko Google-a, captcha itd. Zato edge case analizu treba raditi sistematično: razmišljaj o podacima, mreži, platformi i neobičnom ponašanju korisnika. Tek kad „smrtno ozbiljno“ prođeš kroz svaki sloj, signup forma je zaista spremna.
+To je već 20+ slučajeva, a još nismo pomenuli dodatna polja, opcije prijave preko Google-a, captcha itd. Zato granični slučaj analizu treba raditi sistematično: razmišljaj o podacima, mreži, platformi i neobičnom ponašanju korisnika. Tek kad „smrtno ozbiljno“ prođeš kroz svaki sloj, signup forma je zaista spremna.
