@@ -4,6 +4,8 @@ Dobrodošao u kurs „Level up your code quality as a software engineer“. Bavi
 
 Većina resursa problem pojednostavljuje: „Uzmi ovaj pattern, biblioteku ili tehnologiju iz FANG-a i bićeš dobar.“ To ne funkcioniše. Kvalitet koda je, kao i sve u softveru, pitanje konteksta. Cilj kursa je da ti pruži jasne principe, ali i da pokaže kako se prilagođavaju situaciji.
 
+U nastavku ćemo se fokusirati na konkretne navike i procese koje možeš odmah da primeniš u svom timu. Fokus je na praksi, ne na teorijskim raspravama.
+
 Softverski inženjeri često osećaju paralizu od izbora – previše veština, ne zna se odakle početi. Verujem da je osnova svega upravo kvalitet koda. Ako naučiš da vrednuješ zanat i poliraš ga, druge veštine dolaze lakše.
 
 **Ciljevi kursa:**
