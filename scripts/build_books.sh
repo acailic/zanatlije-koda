@@ -31,12 +31,14 @@ for book_path in "${book_paths[@]}"; do
   cp -R "$book_path/book/." "$PUBLISH_DIR/$slug/"
 done
 
+export MDBOOK_ROOT="$ROOT_DIR"
 python <<'PY'
-from pathlib import Path
 import html
+import os
+from pathlib import Path
 import tomllib
 
-root = Path(__file__).resolve().parent.parent
+root = Path(os.environ["MDBOOK_ROOT"]).resolve()
 books_dir = root / "books"
 publish_dir = root / "public"
 publish_dir.mkdir(exist_ok=True)
