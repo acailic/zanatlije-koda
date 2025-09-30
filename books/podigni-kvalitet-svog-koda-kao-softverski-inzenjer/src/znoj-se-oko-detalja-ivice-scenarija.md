@@ -4,7 +4,7 @@ Sledeći princip za bolji kod je: obrati pažnju na detalje i eksplicitno istakn
 
 Većina problema krije se van glavne staze scenarija. Taj „srećan“ tok je obično brz i lagan; đavo se krije u detaljima. Ako želimo visoko kvalitetan kod, moramo proaktivno da pronađemo i zatvorimo te rupe. Biti pedantan izuzetno vredi – u softveru i u životu. U velikim kompanijama to je presudno: bug koji pogađa 0,25% korisnika može značiti milion ljudi.
 
-Zato gurajte softver do granica u svakoj fazi: planiranja, pisanja koda, code review-a i testiranja. Dogfoodujte sopstveni proizvod. Dok sam radio na Instagramu, iako privatno ne volim društvene mreže, namerno sam postao aktivan da bih probavao neobične tokove, klikao dugmad pogrešnim redosledom, unosio „čudne“ vrednosti. Na skali od dve milijarde korisnika garantovano postoji neko ko će upasti u svaku zamislivu čudnu situaciju.
+Zato gurajte softver do granica u svakoj fazi: planiranja, pisanja koda, code review-a i testiranja. Koristite sopstveni proizvod. Dok sam radio na Instagramu, iako privatno ne volim društvene mreže, namerno sam postao aktivan da bih probavao neobične tokove, klikao dugmad pogrešnim redosledom, unosio „čudne" vrednosti. Na skali od dve milijarde korisnika garantovano postoji neko ko će upasti u svaku zamislivu čudnu situaciju.
 
 Promenite način razmišljanja:
 - Nemojte pretpostaviti da korisnici znaju kako se vaš proizvod koristi.

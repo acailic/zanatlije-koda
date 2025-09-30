@@ -1,6 +1,6 @@
 # Postavi plan
 
-Iscrtaj plan. Taj savet sjajno oslikava ovaj mim ovde. Jedna je od mojih omiljenih video-igara, Red Dead Redemption 2, a lik na slici, Dutch, u igri je „čovek sa planom“. To je taj kontekst. Ali isto tako, postavljanje plana presudno je i za softverske inženjere koji žele da pišu dobar kod.
+Iscrtaj plan. Taj savet sjajno oslikava poznati mim. Jedna je od mojih omiljenih video-igara, Red Dead Redemption 2, a lik Dutch u igri je „čovek sa planom". To je taj kontekst. Ali isto tako, postavljanje plana presudno je i za softverske inženjere koji žele da pišu dobar kod.
 
 Dakle, pratite li pažljivo? Pitam zato što, da biste postavili plan, morate da radite stvari o kojima smo ranije govorili: da razložite zadatak i razmislite o ivicama scenarija.
 

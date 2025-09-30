@@ -8,4 +8,4 @@ Veština dekompozicije pomaže svuda: u kodiranju, debagovanju (praćenje toka k
 
 Primer: implementiraš login. To zvuči zastrašujuće, naročito junioru. Razbij ga: prvo UI polje za email, pa validaciju email-a; zatim UI za lozinku, pa validaciju lozinke; na kraju mrežni poziv koji vraća token. Svaku stavku možeš dalje cepati – npr. dugme za prikaz lozinke u plaintextu je poseban mini-zadatak; mrežni sloj može imati zasebne PR-ove za uspeh i različite greške.
 
-Kada sve razložiš, lakše je razmišljati o graničnim slučajevima, kvalitet koda raste, a juniori dobijaju zadatke koje zaista mogu da savladaju. Što dalju karijeru gradiš, projekti postaju veći (6, 12, 24 meseca). Bez vrhunske dekompozicije nema napretka. Zato vežbaj: manji komadi, jasni koraci, fokus na kvalitet.
+Kada sve razložiš, lakše je razmišljati o ivicama scenarija, kvalitet koda raste, a juniori dobijaju zadatke koje zaista mogu da savladaju. Što dalju karijeru gradiš, projekti postaju veći (6, 12, 24 meseca). Bez vrhunske dekompozicije nema napretka. Zato vežbaj: manji komadi, jasni koraci, fokus na kvalitet.

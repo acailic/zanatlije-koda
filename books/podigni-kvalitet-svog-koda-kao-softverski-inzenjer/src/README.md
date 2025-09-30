@@ -5,8 +5,8 @@ Ovaj priručnik okuplja kratke lekcije i studije slučaja o razmišljanju poput 
 ## Šta možete očekivati
 
 - Praktične principe za planiranje, refaktorisanje i održavanje koda.
-- Savete за јасан code review, komunikaciju i dokumentovanje.
+- Savete za jasan code review, komunikaciju i dokumentovanje.
 - Primere iz realnih situacija i studija slučaja.
-- Putokaze за dalje učenje i razvoj veština.
+- Putokaze za dalje učenje i razvoj veština.
 
-Preporuka je da čitate redosledom kojim je organizovan `SUMMARY.md`, jer je materijal grupisan od strateških tema ka studijama slučaja и zaključcima.
+Preporuka je da čitate redosledom kojim je organizovan `SUMMARY.md`, jer je materijal grupisan od strateških tema ka studijama slučaja i zaključcima.

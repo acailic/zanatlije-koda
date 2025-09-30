@@ -10,7 +10,6 @@
 5. Samo gradi. Učenje bez primene ne vredi. Primeni principe u kodu, PR-ovima, komunikaciji, saradnji.
 
 **Šta dalje?**
-- **Diskusija.** Postavi pitanja na internom inženjerskom forumu ili kanalu za kvalitet koda. Volim da razglabam o graničnim slučajevima i dizajnu – dobićeš bolji feedback nego na javnim forumima, jer je zajednica kurirana.
 - **Zajednica.** Upoznaj druge inženjere, uporedi uvide, produbi znanje. Kolektivno promišljanje je najbolji način da gradivo ostane u glavi.
 - **Office hours.** Kompanija organizuje grupne termine – često ih vodim lično. Donesi pitanja o kvalitetu koda, karijeri, sistemskim dizajnima.
 
