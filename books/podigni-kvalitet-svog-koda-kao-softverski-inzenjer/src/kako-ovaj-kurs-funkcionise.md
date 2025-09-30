@@ -4,7 +4,7 @@ Dobrodošao u kurs „Level up your code quality as a software engineer“. Bavi
 
 Većina resursa problem pojednostavljuje: „Uzmi ovaj pattern, biblioteku ili tehnologiju iz FANG-a i bićeš dobar.“ To ne funkcioniše. Kvalitet koda je, kao i sve u softveru, pitanje konteksta. Cilj kursa je da ti pruži jasne principe, ali i da pokaže kako se prilagođavaju situaciji.
 
-Ja sam Aleks – pre nego što sam počeo da držim ovakve programe, bio sam tehnički lead u Coursera-i (danas LearnAo), Meta-i i Robinhood-u. U Coursera-i sam kao prvi Android inženjer izgradio aplikaciju od nule i insistirao na kvalitetu – app je imao najviši NPS među svim klijentskim timovima. U Meta-i sam bio među top 5% po broju commit-ova i top 1% po broju review-a; većina mojih PR-ova prolazila je iz prve, upravo zahvaljujući kvalitetu koda. Van posla gradim projekte već više od decenije: objavio sam preko 30 Android aplikacija, od kojih tri imaju 500k+ korisnika i skoro savršene ocene.
+Instruktor koji vodi ovaj program ranije je bio tehnički lead u Coursera-i (danas LearnAo), Meta-i i Robinhood-u. U Coursera-i je, kao prvi Android inženjer, izgradio aplikaciju od nule i insistirao na kvalitetu – app je imao najviši NPS među svim klijentskim timovima. U Meta-i je bio među top 5% po broju commit-ova i top 1% po broju review-a; većina njegovih PR-ova prolazila je iz prve, upravo zahvaljujući kvalitetu koda. Van posla gradi projekte već više od decenije: objavio je preko 30 Android aplikacija, od kojih tri imaju 500k+ korisnika i skoro savršene ocene.
 
 Softverski inženjeri često osećaju paralizu od izbora – previše veština, ne zna se odakle početi. Verujem da je osnova svega upravo kvalitet koda. Ako naučiš da vrednuješ zanat i poliraš ga, druge veštine dolaze lakše.
 
