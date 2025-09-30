@@ -12,6 +12,6 @@ create-missing = true
 
 [output.html]
 default-theme = "light"
-curly-quotes = true
 fold.enable = true
+smart-punctuation = true
 
