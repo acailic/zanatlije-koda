@@ -5,6 +5,7 @@ language = "sr"
 authors = ["Zanatlije Koda"]
 multilingual = false
 src = "src"
+topics = ["Code Quality", "Best Practices", "Refactoring"]
 
 [build]
 build-dir = "book"
