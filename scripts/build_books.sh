@@ -76,42 +76,42 @@ template = """<!DOCTYPE html>
   <style>
     :root { color-scheme: light dark; }
     * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: radial-gradient(circle at 18% 18%, #38bdf8 0%, #1d4ed8 40%, #0f172a 100%); display: flex; justify-content: center; align-items: flex-start; padding: clamp(2.2rem, 6vw, 3.8rem) clamp(1rem, 3vw, 2.4rem); }
+    body { margin: 0; min-height: 100vh; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: radial-gradient(circle at 18% 18%, #e67e50 0%, #c2593f 40%, #3b2e2a 100%); display: flex; justify-content: center; align-items: flex-start; padding: clamp(2.2rem, 6vw, 3.8rem) clamp(1rem, 3vw, 2.4rem); }
     .page { width: min(1080px, 100%); background: rgba(255, 255, 255, 0.93); border-radius: 1.75rem; box-shadow: 0 32px 60px rgba(15, 23, 42, 0.32); backdrop-filter: blur(16px); padding: clamp(2.1rem, 3.5vw, 3.3rem); overflow: hidden; }
     header { position: relative; display: flex; flex-direction: column; gap: 0.85rem; margin-bottom: 2.2rem; }
-    header::after { content: ''; position: absolute; inset: -70% auto auto -32%; width: 260px; height: 260px; background: radial-gradient(circle, rgba(59,130,246,0.22), transparent 65%); transform: rotate(20deg); opacity: 0.85; pointer-events: none; }
+    header::after { content: ''; position: absolute; inset: -70% auto auto -32%; width: 260px; height: 260px; background: radial-gradient(circle, rgba(230,126,80,0.22), transparent 65%); transform: rotate(20deg); opacity: 0.85; pointer-events: none; }
     header h1 { margin: 0; font-size: clamp(2.15rem, 4vw, 2.85rem); color: #0f172a; letter-spacing: -0.02em; }
     header p { margin: 0; color: #334155; max-width: 70ch; }
     .toolbar { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; margin-bottom: 1.9rem; }
-    .stat { display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.6rem 1.25rem; border-radius: 999px; background: rgba(79, 70, 229, 0.14); color: #3730a3; font-weight: 600; letter-spacing: 0.03em; }
+    .stat { display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.6rem 1.25rem; border-radius: 999px; background: rgba(230, 126, 80, 0.14); color: #8b3d1c; font-weight: 600; letter-spacing: 0.03em; }
     .stat span { font-size: 1.05rem; }
     .search { position: relative; flex: 1 1 260px; max-width: 360px; }
     .search input { width: 100%; border-radius: 999px; padding: 0.7rem 1.2rem 0.7rem 2.7rem; border: 1px solid rgba(148, 163, 184, 0.35); background: rgba(255,255,255,0.9); font-size: 0.98rem; transition: box-shadow 0.2s ease, border-color 0.2s ease; color: #0f172a; }
-    .search input:focus { outline: none; border-color: rgba(59, 130, 246, 0.55); box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.12); }
+    .search input:focus { outline: none; border-color: rgba(230, 126, 80, 0.55); box-shadow: 0 0 0 4px rgba(230, 126, 80, 0.12); }
     .search svg { position: absolute; top: 50%; left: 1rem; width: 1rem; height: 1rem; transform: translateY(-50%); stroke: #64748b; }
     .library { display: grid; gap: 1.7rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-    .card { border-radius: 1.15rem; background: linear-gradient(135deg, rgba(59,130,246,0.17), rgba(14,165,233,0.1)); border: 1px solid rgba(148,163,184,0.28); padding: 1.65rem; transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease; position: relative; overflow: hidden; min-height: 188px; display: flex; }
-    .card::before { content: ''; position: absolute; inset: 0; background: linear-gradient(120deg, rgba(59,130,246,0.24), transparent 60%); opacity: 0; transition: opacity 0.2s ease; }
-    .card:hover { transform: translateY(-8px); box-shadow: 0 26px 48px rgba(15, 23, 42, 0.26); border-color: rgba(59,130,246,0.48); }
+    .card { border-radius: 1.15rem; background: linear-gradient(135deg, rgba(230,126,80,0.17), rgba(194,89,63,0.1)); border: 1px solid rgba(148,163,184,0.28); padding: 1.65rem; transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease; position: relative; overflow: hidden; min-height: 188px; display: flex; }
+    .card::before { content: ''; position: absolute; inset: 0; background: linear-gradient(120deg, rgba(230,126,80,0.24), transparent 60%); opacity: 0; transition: opacity 0.2s ease; }
+    .card:hover { transform: translateY(-8px); box-shadow: 0 26px 48px rgba(15, 23, 42, 0.26); border-color: rgba(230,126,80,0.48); }
     .card:hover::before { opacity: 1; }
     .card__link { position: relative; z-index: 1; display: flex; flex-direction: column; color: inherit; text-decoration: none; width: 100%; }
     .card__title { margin: 0 0 0.8rem; font-size: 1.34rem; font-weight: 600; color: #0f172a; letter-spacing: -0.012em; display: flex; align-items: center; gap: 0.55rem; }
     .card__title::before { content: '📚'; font-size: 1.3rem; opacity: 0.85; }
     .card__desc { margin: 0; color: #475569; font-size: 0.99rem; line-height: 1.6; }
     .card__meta { margin-top: auto; padding-top: 1.1rem; display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.86rem; color: #64748b; font-weight: 500; }
-    .card__tag { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; background: rgba(59, 130, 246, 0.12); border-radius: 999px; color: #1e40af; }
+    .card__tag { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; background: rgba(230, 126, 80, 0.12); border-radius: 999px; color: #8b3d1c; }
     .empty { margin: 2.4rem 0; color: #475569; font-style: italic; text-align: center; }
     .pager { margin-top: 2.8rem; display: flex; align-items: center; justify-content: center; gap: 1.6rem; }
     .pager[hidden] { display: none; }
-    .pager__btn { appearance: none; border: none; border-radius: 999px; padding: 0.7rem 1.6rem; background: linear-gradient(135deg, #2563eb, #0ea5e9); color: white; font-weight: 600; cursor: pointer; box-shadow: 0 16px 38px rgba(37, 99, 235, 0.32); transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease; }
+    .pager__btn { appearance: none; border: none; border-radius: 999px; padding: 0.7rem 1.6rem; background: linear-gradient(135deg, #e67e50, #c2593f); color: white; font-weight: 600; cursor: pointer; box-shadow: 0 16px 38px rgba(230, 126, 80, 0.32); transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease; }
     .pager__btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; }
-    .pager__btn:not(:disabled):hover { transform: translateY(-2px); box-shadow: 0 22px 48px rgba(37, 99, 235, 0.38); }
+    .pager__btn:not(:disabled):hover { transform: translateY(-2px); box-shadow: 0 22px 48px rgba(230, 126, 80, 0.38); }
     .pager__counter { font-variant-numeric: tabular-nums; color: #1e293b; font-weight: 600; letter-spacing: 0.05em; }
     .quick-links { margin-top: 2.5rem; padding: 1.5rem; background: rgba(249, 250, 251, 0.6); border-radius: 1rem; border: 1px solid rgba(148, 163, 184, 0.2); }
     .quick-links h3 { margin: 0 0 1rem; font-size: 1.1rem; color: #1e293b; font-weight: 600; }
     .quick-links ul { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 0.8rem; }
-    .quick-links a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: white; border: 1px solid rgba(203, 213, 225, 0.5); border-radius: 0.5rem; color: #1e40af; text-decoration: none; font-size: 0.93rem; font-weight: 500; transition: all 0.2s ease; }
-    .quick-links a:hover { background: rgba(59, 130, 246, 0.08); border-color: rgba(59, 130, 246, 0.4); transform: translateX(2px); }
+    .quick-links a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: white; border: 1px solid rgba(203, 213, 225, 0.5); border-radius: 0.5rem; color: #8b3d1c; text-decoration: none; font-size: 0.93rem; font-weight: 500; transition: all 0.2s ease; }
+    .quick-links a:hover { background: rgba(230, 126, 80, 0.08); border-color: rgba(230, 126, 80, 0.4); transform: translateX(2px); }
     footer { margin-top: 3.4rem; font-size: 0.92rem; color: #6b7280; text-align: center; }
     @media (max-width: 720px) {
       body { padding: 2rem 1rem; }
@@ -120,22 +120,22 @@ template = """<!DOCTYPE html>
       .toolbar { gap: 0.75rem; }
     }
     @media (prefers-color-scheme: dark) {
-      body { background: radial-gradient(circle at 15% 20%, #1e3a8a 0%, #0f172a 55%, #020617 100%); color: #e2e8f0; }
+      body { background: radial-gradient(circle at 15% 20%, #8b3d1c 0%, #3b2e2a 55%, #1a1512 100%); color: #e2e8f0; }
       .page { background: rgba(15, 23, 42, 0.82); border: 1px solid rgba(148, 163, 184, 0.22); color: #e2e8f0; }
       header h1 { color: #f8fafc; }
       header p { color: #cbd5f5; }
-      .stat { background: rgba(79, 70, 229, 0.24); color: #c7d2fe; }
+      .stat { background: rgba(230, 126, 80, 0.24); color: #f5c4aa; }
       .search input { background: rgba(15, 23, 42, 0.65); color: #e2e8f0; border-color: rgba(148, 163, 184, 0.32); }
       .search svg { stroke: #94a3b8; }
-      .card { background: linear-gradient(135deg, rgba(59,130,246,0.28), rgba(14,165,233,0.18)); border-color: rgba(59,130,246,0.38); }
+      .card { background: linear-gradient(135deg, rgba(230,126,80,0.28), rgba(194,89,63,0.18)); border-color: rgba(230,126,80,0.38); }
       .card__title { color: #f8fafc; }
       .card__desc { color: #cbd5f5; }
-      .card__tag { background: rgba(99, 102, 241, 0.22); color: #c7d2fe; }
+      .card__tag { background: rgba(230, 126, 80, 0.22); color: #f5c4aa; }
       .pager__counter { color: #cbd5f5; }
       .quick-links { background: rgba(30, 41, 59, 0.4); border-color: rgba(148, 163, 184, 0.25); }
       .quick-links h3 { color: #f1f5f9; }
-      .quick-links a { background: rgba(15, 23, 42, 0.6); border-color: rgba(148, 163, 184, 0.3); color: #93c5fd; }
-      .quick-links a:hover { background: rgba(59, 130, 246, 0.15); border-color: rgba(59, 130, 246, 0.45); }
+      .quick-links a { background: rgba(15, 23, 42, 0.6); border-color: rgba(148, 163, 184, 0.3); color: #f5c4aa; }
+      .quick-links a:hover { background: rgba(230, 126, 80, 0.15); border-color: rgba(230, 126, 80, 0.45); }
       footer { color: #94a3b8; }
     }
   </style>
